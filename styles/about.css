@@ -1,125 +1,474 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Quicksand:wght@300..700&display=swap");
 
-
-
+:root {
+  --font-family: "Krub", sans-serif;
+  --wheit: #ffffff;
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
-    font-family: 'Rubik', sans-serif;
+  font-family: "Rubik", sans-serif;
 }
 
 .container {
-    max-width: 1300px;
-    margin: auto;
+  max-width: 1300px;
+  margin: auto;
 }
 
 nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    padding: 40px 0;
-    background-color: #091242;
-
-
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 40px 0;
+  background-color: #091242;
 }
 
 .logo-sec {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
 }
 
 .logo-sec p {
-    font-family: var(--font-family);
-    font-weight: 600;
-    font-size: 30px;
-    color: #fff;
-    margin-right: 240px;
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--wheit);
+  margin-right: 240px;
 }
 
 .links-sec {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .links {
-    display: flex;
-    align-items: center;
-    gap: 17px;
+  display: flex;
+  align-items: center;
+  gap: 17px;
 }
 
 .links p {
-    font-family: var(--second-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 135%;
-    color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: var(--wheit);
 }
 
 .links a {
-    font-family: var(--second-family);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 135%;
-    color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 135%;
+  color: var(--wheit);
 }
 
 .header-with-img {
-    background-image: url(../imgs/about-background-img.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+  background: linear-gradient(
+    90.93deg,
+    #032d5f 18.18%,
+    rgba(9, 18, 66, 0.2) 64.92%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 300px);
+  position: relative;
+}
 
-    height: 100vh;
+.header-img-sec {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+.header-img {
+  width: 100%;
+  height: 100%;
 }
 
 .links2 {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .links-sec2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: rgba(9, 18, 66, 0.25);
-    width: 100%;
-    padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgba(9, 18, 66, 0.25);
+  width: 100%;
+  padding: 30px;
 }
 
 .links-sec2 a {
-    font-family: var(--second-family);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 135%;
-    color: #fff;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 135%;
+  color: var(--wheit);
 }
 
 .social-media-sec {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 .social-media {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }
 
 .request-box {
-    background: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    height: 50px;
-    border: none;
-    cursor: pointer;
+  font-family: var(--font-family);
+  background: var(--wheit);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  color: #23212a;
 }
+
+.header-text {
+  position: absolute;
+  top: 50%;
+  left: 34%;
+  transform: translate(-50%, -50%);
+}
+.text-content {
+  display: flex;
+  align-items: center;
+}
+.text-content .line {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  height: 23px;
+  width: 4px;
+}
+.text {
+  background: #041c3780;
+}
+.text p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: left;
+  padding: 3.5px 9px;
+  color: var(--wheit);
+}
+.header-text h2 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 71.1px;
+  text-align: left;
+
+  color: var(--wheit);
+}
+
+.company_overview .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+}
+.cars-img {
+  position: relative;
+  display: flex;
+  align-items: center;
+  transform: translateX(-100px);
+  margin-bottom: 200px;
+}
+.cars-img .cars-imgs {
+  margin-top: 100px;
+  width: 626px;
+  height: 386px;
+  gap: 0px;
+  opacity: 0px;
+}
+.cars-img-seck {
+  position: absolute;
+}
+.cars-img-sec {
+  position: relative;
+  width: 229px;
+  height: 218px;
+  top: 180px;
+  left: 420px;
+  gap: 0px;
+  opacity: 0px;
+  object-fit: cover;
+  z-index: 3;
+  background-color: var(--wheit);
+}
+.cars-img-sec img {
+  position: absolute;
+  width: 239px;
+  height: 233px;
+  top: 25px;
+  left: 25px;
+  gap: 0px;
+  opacity: 0px;
+  z-index: 3;
+}
+.company-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.line-text {
+  display: flex;
+  align-items: center;
+}
+.company-text .line {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  height: 23px;
+  width: 4px;
+}
+.company-text .text {
+  width: 100%;
+  height: 23px;
+  background: #e8e8e880;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-text .text p {
+  display: grid;
+  place-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: center;
+  color: #1c1f35;
+}
+.company-text h3 {
+  margin-top: 19px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  text-align: center;
+  color: #1c1f35;
+  margin-bottom: 12px;
+}
+.company-text p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.24px;
+  text-align: left;
+
+  color: #666c89;
+}
+.company-btn {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.company-btn .button {
+  background: #f4f4f4;
+  padding: 15px 28px;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-bottom: 29px;
+  transition: color 0.3s ease, background 0.3s ease; /* O'zgarish animatsiyasi */
+  font-size: 19px;
+  font-weight: 600;
+  color: #1c1f35;
+  font-family: var(--font-family);
+  line-height: 28.79px;
+  text-align: left;
+  text-decoration: none;
+}
+.company-btn .button:hover {
+  color: var(--wheit);
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+}
+
+.company-text .button2 {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  padding: 19px 54px;
+  margin-top: 31px;
+  border: none;
+  color: var(--wheit);
+  background-color: #091242;
+}
+.company-text .button2:hover {
+  background: linear-gradient(
+    94.06deg,
+    #02105e -1.21%,
+    #1d296e 58.66%,
+    #212e73 116.84%
+  );
+}
+.company-btn2 {
+    cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.company-btn2 .dots {
+  position: absolute;
+  bottom: -50%;
+  right: -25%;
+  transform: translate(-50%, -50%);
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background-color: #1f2a69;
+}
+
+.company-btn2 .dots:hover {
+  background-color: #303a75;
+}
+.logistics {
+  background-color: #f4f4f4;
+}
+.logistics .container {
+  padding: 100px 0;
+}
+.logistics .logistics-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.line-text2 {
+  display: flex;
+  align-items: center;
+}
+.line-text2 .line {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  height: 23px;
+  width: 4px;
+}
+.line-text2 .text {
+  width: 100%;
+  height: 23px;
+  background: #e8e8e880;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.line-text2 .text p {
+  display: grid;
+  place-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: center;
+  color: #1c1f35;
+}
+.logistics-text h3 {
+  margin-top: 19px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  text-align: center;
+}
+
+.logistics-carts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 130px;
+  margin-top: 70px;
+}
+
+
+.logistics-cart h4 {
+  margin-top: 22px;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 29.63px;
+  text-align: left;
+  text-align: left;
+  color: #1C1F35;
+  margin-bottom: 13px;
+}
+.logistics-cart p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24.24px;
+    text-align: left;
+    color: #666C89;
+}
+.logistics-btn {
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}   
+.button3 {
+    display: grid;
+    place-content: center;
+    cursor: pointer;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21.6px;
+    text-align: center;
+    padding: 19px 54px;
+    /* margin-top: 31px; */
+    border: none;
+    color: var(--wheit);
+    background-color: #091242;
+    overflow: hidden;
+ 
+}
+.button3:hover {
+  background: linear-gradient(
+    94.06deg,
+    #02105e -1.21%,
+    #1d296e 58.66%,
+    #212e73 116.84%
+  );
+}
+
