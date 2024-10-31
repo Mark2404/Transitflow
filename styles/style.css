@@ -273,6 +273,138 @@ nav {
     background-position: center;
     height: 500px;
     width: 100%;
+    overflow: hidden;
+
+}
+
+.Background {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.logistic-box {
+    width: 1200px;
+    height: 502px;
+    background-color: #fff;
+}
+
+.logistic-box-text {
+    width: 45%;
+}
+
+.logistics-icons {
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logistic-box-text h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    color: #1c1f35;
+    margin-bottom: 10px;
+}
+
+.logistic-box-text p {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    color: #666c89;
+    margin-top: 10px;
+}
+
+.logistics-icons p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #1c1f35;
+    margin-bottom: 22px;
+}
+
+#first-lg-icon {
+    margin-top: 20px;
+}
+
+.box-inside-box {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.logistics-img-sec {
+    position: relative;
+    width: 65%;
+}
+
+.logistics-hero-img {
+    position: absolute;
+    top: -150px;
+    right: -50px;
+}
+
+.logistics-little-img {
+    position: absolute;
+    top: 65px;
+    left: 150px;
+
+}
+
+.logistics-sec {
+    position: relative;
+}
+
+.logistic-box {
+    position: absolute;
+    bottom: -250px;
+    right: 210px;
+
+    padding: 20px;
+
+}
+
+.information-sec {
+    margin-top: 150px;
+    padding: 40px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top: 1px solid #d4d4d4;
+    position: relative;
 
 
+
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+
+
+}
+
+.middle-line {
+    border: 1px solid #d4d4d4;
+    width: 143px;
+    height: 0px;
+    transform: rotate(90deg);
+}
+
+.information h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 50px;
+    color: #1c1f35;
+}
+
+.kub {
+    width: 17px;
+    height: 17px;
+    background: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
 }
