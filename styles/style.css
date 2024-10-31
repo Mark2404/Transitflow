@@ -123,3 +123,156 @@ nav {
     border: none;
     cursor: pointer;
 }
+
+/* .header-with-img-text-sec {
+    width: 50%;
+} */
+
+.text-with-background {
+    padding: 3px 9px;
+    width: 250px;
+    height: 23px;
+    background-color: rgba(4, 28, 55, 0.5);
+    border-left: yellow 5px solid;
+    margin-top: 150px;
+}
+
+.text-with-background p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+}
+
+.text-with-btn-sec {
+    width: 50%;
+}
+
+.text-with-btn-sec p {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    color: #fff;
+    margin-bottom: 24px;
+}
+
+.text-with-btn-sec h1 {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 60px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.text-with-btn-sec button {
+    width: 194px;
+    height: 60px;
+    position: relative;
+    background-color: rgb(255, 182, 41, 100%);
+    border: none;
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 135%;
+    color: #23212a;
+    cursor: pointer;
+    margin-bottom: 150px;
+}
+
+.button-overflow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+
+.cargo-sec {
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    gap: 100px;
+}
+
+.cargo-text-sec {
+    width: 70%;
+}
+
+.text-with-background-cargo {
+    width: 96px;
+    height: 23px;
+    background-color: rgba(232, 232, 232, 0.5);
+    border-left: yellow 5px solid;
+    margin-bottom: 15px;
+
+}
+
+.text-with-background-cargo p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1f35;
+}
+
+.cargo-text-sec h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    color: #1c1f35;
+}
+
+.types-of-cargo-sec {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+
+
+}
+
+.types-of-cargo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 70px;
+}
+
+.cargo {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    width: 50%;
+}
+
+.cargo div {
+
+    border-left: 1px solid #666c89;
+    padding-left: 20px;
+}
+
+.cargo div h3 {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #1c1f35;
+}
+
+.cargo div p {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    color: #666c89;
+}
+
+.logistics-img-back {
+    position: relative;
+    background-image: url(../imgs/logostics-sec-back.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+
+
+}
