@@ -94,6 +94,7 @@ nav {
   object-fit: cover;
   z-index: -1;
 }
+
 .header-img {
   width: 100%;
   height: 100%;
@@ -143,6 +144,7 @@ nav {
   align-items: center;
   gap: 25px;
 }
+
 .social-media a {
   transition: all 0.3s ease-in-out;
 }
@@ -166,6 +168,7 @@ nav {
   color: #23212a;
   transition: all 0.9s ease-in-out;
 }
+
 .request-box:hover {
   background: linear-gradient(
     94.06deg,
@@ -181,10 +184,12 @@ nav {
   left: 15%;
   transform: translate(-50%, -50%);
 }
+
 .text-content {
   display: flex;
   align-items: center;
 }
+
 .text-content .line {
   background: linear-gradient(
     94.06deg,
@@ -195,9 +200,11 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .text {
   background: #041c3780;
 }
+
 .text p {
   font-size: 14px;
   font-weight: 400;
@@ -206,6 +213,7 @@ nav {
   padding: 3.5px 9px;
   color: var(--wheit);
 }
+
 .header-text h2 {
   font-size: 60px;
   font-weight: 700;
@@ -221,6 +229,7 @@ nav {
   justify-content: center;
   gap: 70px;
 }
+
 .cars-img {
   position: relative;
   display: flex;
@@ -228,6 +237,7 @@ nav {
   transform: translateX(-100px);
   margin-bottom: 200px;
 }
+
 .cars-img .cars-imgs {
   margin-top: 100px;
   width: 626px;
@@ -235,9 +245,11 @@ nav {
   gap: 0px;
   opacity: 0px;
 }
+
 .cars-img-seck {
   position: absolute;
 }
+
 .cars-img-sec {
   position: relative;
   width: 229px;
@@ -250,6 +262,7 @@ nav {
   z-index: 3;
   background-color: var(--wheit);
 }
+
 .cars-img-sec img {
   position: absolute;
   width: 239px;
@@ -260,16 +273,19 @@ nav {
   opacity: 0px;
   z-index: 3;
 }
+
 .company-text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
+
 .line-text {
   display: flex;
   align-items: center;
 }
+
 .company-text .line {
   background: linear-gradient(
     94.06deg,
@@ -280,6 +296,7 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .company-text .text {
   width: 100%;
   height: 23px;
@@ -288,6 +305,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .company-text .text p {
   display: grid;
   place-content: center;
@@ -297,6 +315,7 @@ nav {
   text-align: center;
   color: #1c1f35;
 }
+
 .company-text h3 {
   margin-top: 19px;
   font-size: 35px;
@@ -306,6 +325,7 @@ nav {
   color: #1c1f35;
   margin-bottom: 12px;
 }
+
 .company-text p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -315,12 +335,14 @@ nav {
 
   color: #666c89;
 }
+
 .company-btn {
   margin-top: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .company-btn .button {
   background: #f4f4f4;
   padding: 15px 28px;
@@ -338,6 +360,7 @@ nav {
   text-align: left;
   text-decoration: none;
 }
+
 .company-btn .button:hover {
   color: var(--wheit);
   background: linear-gradient(
@@ -360,6 +383,7 @@ nav {
   color: var(--wheit);
   background-color: #091242;
 }
+
 .company-text .button2:hover {
   background: linear-gradient(
     94.06deg,
@@ -368,11 +392,13 @@ nav {
     #212e73 116.84%
   );
 }
+
 .company-btn2 {
   cursor: pointer;
   position: relative;
   overflow: hidden;
 }
+
 .company-btn2 .dots {
   position: absolute;
   bottom: -50%;
@@ -387,22 +413,27 @@ nav {
 .company-btn2 .dots:hover {
   background-color: #303a75;
 }
+
 .logistics {
   background-color: #f4f4f4;
 }
+
 .logistics .container {
   padding: 100px 0;
 }
+
 .logistics .logistics-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .line-text2 {
   display: flex;
   align-items: center;
 }
+
 .line-text2 .line {
   background: linear-gradient(
     94.06deg,
@@ -413,6 +444,7 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .line-text2 .text {
   width: 100%;
   height: 23px;
@@ -421,6 +453,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .line-text2 .text p {
   display: grid;
   place-content: center;
@@ -430,6 +463,7 @@ nav {
   text-align: center;
   color: #1c1f35;
 }
+
 .logistics-text h3 {
   margin-top: 19px;
   font-size: 35px;
@@ -455,6 +489,7 @@ nav {
   color: #1c1f35;
   margin-bottom: 13px;
 }
+
 .logistics-cart p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -463,6 +498,7 @@ nav {
   text-align: left;
   color: #666c89;
 }
+
 .logistics-btn {
   margin-top: 80px;
   display: flex;
@@ -471,6 +507,7 @@ nav {
   overflow: hidden;
   position: relative;
 }
+
 .button3 {
   display: grid;
   place-content: center;
@@ -487,6 +524,7 @@ nav {
   background-color: #091242;
   overflow: hidden;
 }
+
 .button3:hover {
   background: linear-gradient(
     94.06deg,
@@ -499,16 +537,19 @@ nav {
 .Expert .container {
   padding: 100px 0;
 }
+
 .Expert-text {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .line-text3 {
   display: flex;
   align-items: center;
 }
+
 .line-text3 .linee {
   background: linear-gradient(
     94.06deg,
@@ -519,6 +560,7 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .line-text3 .text {
   width: 100%;
   height: 23px;
@@ -537,6 +579,7 @@ nav {
   text-align: center;
   color: #1c1f35;
 }
+
 .Expert-text h3 {
   margin-top: 19px;
   font-size: 35px;
@@ -552,17 +595,20 @@ nav {
   gap: 50px;
   margin-top: 70px;
 }
+
 .Expert-cart {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
+
 .Expert-cart img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .Expert-cart-text {
   position: relative;
   padding-top: 42px;
@@ -576,6 +622,7 @@ nav {
   justify-content: center;
   background-color: #1c1f35;
 }
+
 .Expert-cart-text h5 {
   font-size: 20px;
   font-weight: 500;
@@ -583,6 +630,7 @@ nav {
   text-align: left;
   color: var(--wheit);
 }
+
 .Expert-cart-text p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -591,6 +639,7 @@ nav {
   text-align: left;
   color: var(--wheit);
 }
+
 .Expert-cart-icon {
   position: absolute;
   display: flex;
@@ -609,26 +658,32 @@ nav {
   gap: 20px;
   margin-top: 20px;
 }
+
 .Expert-cart-icon img {
   width: 24px;
   height: 24px;
 }
+
 .Customer {
   background-color: #e8e8e880;
 }
+
 .Customer .container {
   padding: 100px 0;
 }
+
 .Customer-text2 {
   display: flex;
   flex-direction: column;
   align-items: self-start;
   justify-content: flex-start;
 }
+
 .line-text4 {
   display: flex;
   align-items: self-start;
 }
+
 .line-text4 .linee {
   background: linear-gradient(
     94.06deg,
@@ -639,6 +694,7 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .line-text4 .text {
   width: 100%;
   height: 23px;
@@ -647,6 +703,7 @@ nav {
   align-items: flex-start;
   justify-content: flex-start;
 }
+
 .line-text4 .text p {
   display: grid;
   place-content: center;
@@ -656,6 +713,7 @@ nav {
   text-align: center;
   color: #1c1f35;
 }
+
 .Customer-text h3 {
   margin-top: 19px;
   font-size: 35px;
@@ -688,22 +746,26 @@ nav {
   justify-content: center;
   padding: 60px 70px;
 }
+
 .Customer-cart-text2 {
   display: flex;
   align-items: self-start;
   justify-content: center;
   margin-bottom: 24px;
 }
+
 .Customer-user {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
+
 .Customer-user-text {
   display: flex;
   flex-direction: column;
 }
+
 .Customer-user-text h5 {
   font-size: 20px;
   font-weight: 500;
@@ -711,6 +773,7 @@ nav {
   text-align: left;
   color: #091242;
 }
+
 .Customer-user-text p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -719,6 +782,7 @@ nav {
   text-align: left;
   color: #091242;
 }
+
 .Customer-user-mark {
   display: flex;
   align-items: center;
@@ -735,6 +799,7 @@ nav {
   margin-left: 130px;
   margin-top: 10px;
 }
+
 .Customer-cart-text .Customer-cart-p {
   font-family: var(--font-family);
   font-size: 16px;
@@ -745,6 +810,7 @@ nav {
   color: #666c89;
   margin-bottom: 32px;
 }
+
 .star {
   display: flex;
   align-items: center;
@@ -752,15 +818,19 @@ nav {
   gap: 5px;
   cursor: pointer;
 }
+
 .text2 {
   background-color: #091242;
 }
+
 .text2 p {
   color: var(--wheit);
 }
+
 .text2 h5 {
   color: var(--wheit);
 }
+
 .text2 .Customer-cart-p {
   color: var(--wheit);
 }
@@ -768,6 +838,7 @@ nav {
 .Pricing .container {
   padding: 100px 0;
 }
+
 .Pricing-text {
   display: flex;
   flex-direction: column;
@@ -775,6 +846,7 @@ nav {
   justify-content: center;
   margin-top: 50px;
 }
+
 .Pricing-text h3 {
   margin-top: 15px;
   font-size: 35px;
@@ -784,11 +856,13 @@ nav {
   color: #1c1f35;
   margin-bottom: 30px;
 }
+
 .line-text5 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .line-text5 .linee {
   background: linear-gradient(
     94.06deg,
@@ -799,6 +873,7 @@ nav {
   height: 23px;
   width: 4px;
 }
+
 .line-text5 .text {
   /* width: 100%; */
   height: 23px;
@@ -807,6 +882,7 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
 .line-text5 .text p {
   display: grid;
   place-content: center;
@@ -816,6 +892,7 @@ nav {
   text-align: center;
   color: #1c1f35;
 }
+
 .Pricing-carts {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -898,4 +975,210 @@ nav {
     #ffd7a6 116.84%
   );
   color: #fff;
+}
+.questions {
+  background-color: #F4F4F4;
+}
+.questions .container {
+  padding: 100px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  position: relative;
+}
+
+.questions-text {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-wrap: wrap;
+  gap: 30px;
+  z-index: 1;
+}
+.questions-subtext {
+  max-width: 100%;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+.questions-text2 {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.questions .questions-text2 h3 {
+  margin-top: 15px;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  color: #1c1f35;
+  margin-bottom: 30px;
+}
+
+.line-text6 {
+  display: flex;
+  align-items: center;
+}
+
+.line-text6 .linee {
+  background: linear-gradient(
+    94.06deg,
+    #ffb629 -1.21%,
+    #ffda56 58.66%,
+    #ffd7a6 116.84%
+  );
+  height: 23px;
+  width: 4px;
+}
+
+.line-text6 .text {
+  height: 23px;
+  background: #e8e8e880;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line-text6 .text p {
+  display: grid;
+  place-content: center;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.59px;
+  text-align: center;
+  color: #1c1f35;
+}
+
+.questions-parts {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 70px;
+}
+
+.questions-part {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* overflow: hidden; */
+  position: relative;
+}
+
+.questions-part h5 {
+  position: absolute;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.7px;
+  text-align: left;
+  color: #1c1f35;
+  transition: transform 0.3s ease;
+}
+.questions-part p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24.24px;
+  text-align: left;
+  color: #666c89;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+.questions-part-text {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.questions-part img {
+  position: absolute;
+  bottom: -10px;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.questions-part:hover h5,
+.questions-part:hover img {
+  transform: translateY(-10px);
+}
+
+.questions-part:hover p {
+  max-height: 100px; /* P ning maksimal balandligini yozing */
+  opacity: 1;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+}
+
+.questions-div {
+  margin: 50px 0px 50px 70px;
+  width: 448px;
+  height: 378px;
+  padding: 40px 52px;
+  background-color: #091242;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 5px;
+}
+.questions-div .questions-text2 h3 {
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 41.48px;
+  color: #fff;
+}
+.questions-div .questions-text2 p {
+  color: var(--wheit);
+}
+.questions-btn {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+
+}
+.questions-btn button {
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21.6px;
+  text-align: center;
+  padding: 14px 24px;
+  border: none;
+  color: #23212A;
+  background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+  overflow: hidden;
+}
+
+.questions-btn button:hover {
+  background: linear-gradient(
+    94.06deg,                        
+    #FFD7A6 -1.21%,
+    #FFDA56 58.66%,
+    #FFB629 116.84%
+  );
+}
+.questions-img img {
+  position: absolute;
+  top: 50%;
+  right: -50px;
+  transform: translateY(-55%);
+  width: 480px;
+  height: 540px;
+  object-fit: cover;
+  z-index: 0;
 }
