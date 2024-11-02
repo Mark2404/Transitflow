@@ -461,6 +461,9 @@ nav {
     position: absolute;
     bottom: 23px;
     left: 45px;
+    animation-name: typing;
+    animation-delay: 20s;
+    animation-duration: 10s;
 }
 
 .yellow-box {
@@ -493,4 +496,42 @@ nav {
     color: #fff;
     cursor: pointer;
 
+}
+
+.yellow-box button:hover {
+    border: 1px solid #091242;
+}
+
+button:hover,
+a:hover {
+    transform: scale(1.05);
+    background-color: #ffb629;
+    color: #091242;
+
+    transition: all 0.3s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+button {
+    animation: fadeInUp 1s ease-in-out forwards;
 }
