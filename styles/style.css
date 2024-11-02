@@ -797,3 +797,110 @@ button {
     text-align: left;
     color: #1c1f35;
 }
+
+.big-plane-sec {
+    display: flex;
+
+}
+
+.big-plane-img-sec {
+    position: relative;
+    width: 50%;
+}
+
+.big-plane-img {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    width: 700px;
+    height: 700px;
+}
+
+.plane-bc {
+    width: 800px;
+    height: 700px;
+    background-color: #091242;
+    width: 56%;
+
+}
+
+.min-yellow-box {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    bottom: 150px;
+    left: 150px;
+    width: 417px;
+    height: 139px;
+    padding: 5px;
+
+
+    background: linear-gradient(94.06deg, #FFB629 -1.21%, #FFDA56 58.66%, #FFD7A6 116.84%);
+}
+
+.min-yellow-box p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 25px;
+    color: #1c1f35;
+}
+
+#potential-bc-text {
+    padding: 3px 9px;
+    width: 98px;
+    height: 23px;
+    background-color: rgba(232, 232, 232, 0.5);
+    border-left: 4px solid yellow;
+    margin-bottom: 20px;
+}
+
+#potential-bc-text p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: #1c1f35;
+}
+
+.potential-sec-text h1 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 35px;
+    color: #1c1f35;
+}
+
+.potential-sec-text {
+    margin-bottom: 60px;
+}
+
+.potential-sec-text p {
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 152%;
+    color: #666c89;
+}
+
+.potential-sec-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.column .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.potential-sec {
+    position: absolute;
+    right: 10px;
+    margin-top: 50px;
+}
+
+.potential-sec-icons {
+    position: absolute;
+}
